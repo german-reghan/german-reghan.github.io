@@ -1,0 +1,31 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.about-me ul {
+  list-style-position: inline-block;
+  text-align: left;
+  padding: 10;
+}
+
+.about-me img {
+    width: 200px;
+}
+
+/* DESKTOP */
+@media (min-width: 1200px) {
+
+.about-me {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.about-me img {
+    width: 300px;
+}
+}

@@ -16,7 +16,7 @@ body {
         }
         h1,
         h2 {
-            color: #007bff;
+            color: darkblue;
         }
         .header {
             text-align: center;
@@ -29,7 +29,7 @@ body {
             font-size: 14px;
         }
         .contact a {
-            color: #007bff;
+            color: black;
             text-decoration: none;
         }
         .section {
@@ -37,7 +37,7 @@ body {
         }
         .section h2 {
             margin-bottom: 10px;
-            border-bottom: 2px solid #007bff;
+            border-bottom: 2px solid darkblue;
             padding-bottom: 5px;
         }
         .item {
@@ -58,7 +58,15 @@ body {
         }
         .skills ul li {
             display: inline-block;
-            background: #007bff;
+            background: darkblue;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px 5px 5px 0;
+            border-radius: 4px;
+        }
+        .button-link {
+            display: inline-block;
+            background-color: black;
             color: #fff;
             padding: 5px 10px;
             margin: 5px 5px 5px 0;
