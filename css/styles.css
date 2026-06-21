@@ -72,3 +72,19 @@ body {
             margin: 5px 5px 5px 0;
             border-radius: 4px;
         }
+
+        #projects-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                max-width: 1100px;
+            }
+
+            #projects-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
